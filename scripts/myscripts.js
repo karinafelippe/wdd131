@@ -1,3 +1,8 @@
+/* 
+  Author: Karina Felippe
+*/
+
+// example of javascript instruction
 const buttonA = document.querySelector("#button_A");
 const headingA = document.querySelector("#heading_A");
 
