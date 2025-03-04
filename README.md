@@ -1,5 +1,5 @@
 # WDD131
-Created to attempt WDD131 assignments.
+Created to attempt class assignments.
 
 ---
 ## Overview
