@@ -6,7 +6,7 @@ Author: Karina Felippe
     --color2: #bec4ff;
     --color3: #d4d7ff;
     --color4: #e9ebff;
-    --color5: #ffffff;
+    --color5: #000;
 }
 
 * {
@@ -127,14 +127,14 @@ li {
 
 a {
     text-decoration: none;
-    color: var(--color1);
+    color: var(--color5);
     font-weight: bold;
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--color2); 
+    text-decoration: underline;
 }
 
 footer {
