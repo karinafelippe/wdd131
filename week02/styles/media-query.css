@@ -3,7 +3,6 @@ body {
     font-style: normal;
     font-weight: 400;
     font-stretch: 100%;
-    font-display: swap;
 }
 
 header,
@@ -15,7 +14,6 @@ footer
     border: 1px solid gray;
     padding: 1rem;
     background-color: rgb(116, 185, 231);
-    border-radius: 1rem;
 }
 
 main {
@@ -29,9 +27,4 @@ section {
     padding: .5rem;
     background-color: aliceblue;
     padding: 1rem;
-    border-radius: 1rem;
-}
-
-.round-border {
-    border-radius: 1rem;
 }
