@@ -8,7 +8,7 @@ For each workflow a new version will be implanted.
 The pattern for this repository will follow:
 
     - First digit: week
-    - Second digit: 1 for release, 2 for fix, 3 for README
+    - Second digit: 1 for README, 2 for release, 3 for fix
     - Third digit: number of commits
 
 ## Naming Conventions
