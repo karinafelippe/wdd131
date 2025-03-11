@@ -1,0 +1,149 @@
+:root {
+    --color1: #a9b0ff;
+    --color2: #bec4ff;
+    --color3: #d4d7ff;
+    --color4: #e9ebff;
+    --color5: #000;
+    --color6: #006400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: var(--color1);
+    padding: 1.5rem;
+    display: grid;
+    grid-gap: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px #333;
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+main {
+    max-width: 800px;
+}
+
+main h1{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem;
+	color: #000;
+}
+
+#menu::before {
+	content: "≡";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+
+nav a {
+    display: block;
+    color: var(--color5);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+	transition: 0.5s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 100, 0, 0.5);
+    color: var(--color4);
+}
+
+.active {
+    color: var(--color6);
+    text-decoration: underline;
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::before {
+	content: "✖️";
+}
+
+section {
+    margin: 1rem auto;
+    max-width: 960px;
+    padding: .5rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: .5rem;
+}
+
+figcaption {
+    font-size: smaller;
+}
+
+footer {
+    grid-column: 1 / 4;
+    background: var(--color2);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    padding: .25rem;
+}
+
+.sansita-regular-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sansita-extrabold-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sansita-black-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.sansita-regular-italic-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
