@@ -42,9 +42,10 @@ Variables are used to store values. These values can be primitive like a number,
 Design and develop the following home page as your wdd131 course landing page. Use your own content and basic styling.
 ![Example Home Page Screenshot](images/w1_assignment.avif)
 
+---
 
 ### Week 02
- #### Learning Activity1
+ #### Learning Activity
 
  - CSS Media Queries
 
@@ -86,3 +87,14 @@ Screenshot Example in Mobile View
 ![Screenshot Example in Larger View](images/temples_large.avif)
 
 Screenshot Example in Larger View
+
+---
+
+### Week 03
+ #### Learning Activity
+
+ - Design Principles
+ Good design principles are essential in web design to create a positive and engaging user experience. One goal of this course is to provide a strong foundation in effective web design. These principles should be understood, practiced, and continuously applied. Improving your skills takes practice and actively seeking constructive feedback from others.
+
+> "Effective web design and art are not the same. But many psychological and design principles apply to websites. You can design a great website by applying the relevant aspects of those laws to your layout, typography, and images. Design for the user and your business objectives." – Peep Laja – CXL
+
