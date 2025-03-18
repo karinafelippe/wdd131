@@ -113,4 +113,44 @@ Screenshot Example in Larger View
 
     > "Serving desktop-sized images to mobile devices can use 2-4x more data than needed. Instead of a "one-size-fits-all" approach to images, serve different image sizes to different devices. How many image versions should you create? There is no single 'correct' answer to this question. However, it's common to serve 3-5 different sizes of an image. Serving more image sizes is better for performance, but will take up more space on your servers and require writing a tiny bit more HTML." – Web.dev
 
-- 
+ - JavaScript Arrays
+ An array is a data structure that stores a multiple values in a single variable instead of declaring separate variables for each value.
+
+ - JavaScript Functions
+ Functions in JavaScript are common programming control structures. They are blocks of code that can be called by name multiple times throughout a program to perform specific tasks. Functions can receive input data and return output data back to the caller.
+
+    > "Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it. – MDN"
+
+
+#### Assignment
+ In this assignment, you will apply the concepts from the learning activities to the design and development of a web page. The subject of the page is a country or place where you live, have visited, or wish to visit. There are specific, functional and developmental requirements for the page's layout, design, and content.
+
+#### Task
+ Design and build a single webpage using the following wireframe as the layout and content location guide:
+
+![Screenshot Wireframe design](images/place-mobile.png)
+
+Wireframe design of the page in mobile view
+
+![Screenshot Wireframe design](images/place-wide.png)
+
+Wireframe design of the page in a wider view
+
+![Screenshot Wireframe design](images/place-sm-full.png)
+
+Example Page in Mobile View
+
+![Screenshot Wireframe design](images/place-lg-1160.png)
+
+Example Page in a Wider View
+
+
+> You can create your own free wireframe designs using the online application [jGraph-Diagrams.net](https://app.diagrams.net/), or you can download and install the [JGraph](https://github.com/jgraph/drawio-desktop/releases) program on your computer. There are many other viable wireframe design applications, including [Moqups](https://moqups.com/). Note that you will need to create your own wireframe designs later in the course.
+
+
+---
+
+### Week 04
+ #### Learning Activity
+
+ - 
