@@ -96,5 +96,21 @@ Screenshot Example in Larger View
  - Design Principles
  Good design principles are essential in web design to create a positive and engaging user experience. One goal of this course is to provide a strong foundation in effective web design. These principles should be understood, practiced, and continuously applied. Improving your skills takes practice and actively seeking constructive feedback from others.
 
-> "Effective web design and art are not the same. But many psychological and design principles apply to websites. You can design a great website by applying the relevant aspects of those laws to your layout, typography, and images. Design for the user and your business objectives." – Peep Laja – CXL
+    > "Effective web design and art are not the same. But many psychological and design principles apply to websites. You can design a great website by applying the relevant aspects of those laws to your layout, typography, and images. Design for the user and your business objectives." – Peep Laja – CXL
 
+ - CSS Pseudo Selection
+ Pseudo-classes and pseudo-elements enhance the abilities and/or content of specific selectors. A pseudo-class is used to define a special state of an element. For example, it can change the color of a button when the user hovers over it with their cursor. A pseudo-element styles specific parts of an element, such as the first letter or the first line of a paragraph.
+
+ - Image File Formats
+ You have worked with various image formats some of which are better suited for the web. Responsive image design aims to reduce page weights and deliver optimized for different screen sizes. This activity explores the SVG (Scalar Vector Graphic) and the WebP image formats, which offer better compression for faster page loads.
+
+    > "_WebP_ is a modern image format that provides superior lossless and lossy compression for images on the web. Using WebP, webmasters and web developers can create smaller, richer images that make the web faster." – developers.google.com
+
+    > The _Scalable Vector Graphic_ or _SVG_ format is a vector image format that is used for two-dimensional graphics with support for interactivity and animation. "As such, it's a text-based, open Web standard for describing images that can be rendered cleanly at any size and are designed specifically to work well with other web standards including CSS, DOM, JavaScript, and SMIL. SVG is, essentially, to graphics what HTML is to text." – MDN
+
+ - Responsive Images
+ The work of responsive image design is to support smaller page weights and to deliver content on screen size. You have worked on basic image optimization using image types, sizing, and quality level adjustments. You also need to be aware of the image's appearance on different screen sizes. This activity's objective is to reduce page weight while being conscious of image clarity and functionality on different screen sizes and viewports (the visible area of a web page).
+
+    > "Serving desktop-sized images to mobile devices can use 2-4x more data than needed. Instead of a "one-size-fits-all" approach to images, serve different image sizes to different devices. How many image versions should you create? There is no single 'correct' answer to this question. However, it's common to serve 3-5 different sizes of an image. Serving more image sizes is better for performance, but will take up more space on your servers and require writing a tiny bit more HTML." – Web.dev
+
+- 
