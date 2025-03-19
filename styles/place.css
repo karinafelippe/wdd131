@@ -1,0 +1,123 @@
+:root {
+    --color1: #a9b0ff;
+    --color2: #bec4ff;
+    --color3: #d4d7ff;
+    --color4: #e9ebff;
+    --color5: #000;
+    --color6: #006400;
+
+    --sansita-regular-font: normal 400 1em "Sansita", sans-serif;
+    --sansita-regular-italic-font: italic 400 1em "Sansita", sans-serif;
+    --sansita-extrabold-font: normal 800 1.5em "Sansita", sans-serif;
+    --sansita-black-font: normal 900 2em "Sansita", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color1);
+}
+
+body {
+    height: 100vh;
+    background: var(--color4);
+    padding-bottom: 2rem;
+}
+
+header {
+    grid-column: 1 / 4;
+    background: var(--color1);
+}
+
+header h1 {
+    text-align: center;
+    padding: 1rem;
+    font: var(--sansita-black-font);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hero picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-head {
+    font: var(--sansita-extrabold-font) !important;
+    padding: .5rem 0 .5rem 0;
+}
+
+.weather-head img {
+    padding-top: 1rem;
+}
+
+.data-content,
+.weather-content {
+    border: solid 1px var(--color3);
+    background-color: var(--color4);
+}
+
+.weather-content h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+dl {
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    margin: 0 auto;
+    font: var(--sansita-regular-font);
+}
+
+dt,
+dd {
+    display: inline-block;
+    width: 45%;
+    margin: 0;
+}
+
+dt {
+    padding-right: 10px;
+    text-align: right;
+}
+
+dd {
+    text-align: left;
+}
+
+dt::after {
+    content: ":";
+}
+
+footer {
+    grid-column: 1 / 4;
+    background: var(--color1);
+    padding: 1rem;
+    text-align: center;
+}
+
+#footerTopLine {
+    font: var(--sansita-regular-font)
+}
+
+#lastModified {
+    font: var(--sansita-regular-italic-font)
+}
+
+footer p {
+    padding: .25rem;
+}
