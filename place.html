@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Karina Felippe">
+    <meta name="description"
+        content="The subject of this page is a place where I have visited and like so much - Paraty, Rio de Janeiro, Brazil. There are specific, functional and developmental requirements for the page's layout, design, and content.">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <title>Paraty</title>
+</head>
+
+<body>
+    <header>
+        <h1>Paraty</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Picture of a boat in Paraty, Rio de Janeiro - Brazil"
+                    width="500" height="250">
+            </picture>
+            <div class="data-content text-center">
+                <h3 class="content-head">Data</h3>
+                <dl>
+                    <dt>Area</dt>
+                    <dd>924,296 km²</dd>
+
+                    <dt>Population</dt>
+                    <dd>47,614</dd>
+
+                    <dt>Country</dt>
+                    <dd>Brazil</dd>
+
+                    <dt>State</dt>
+                    <dd>Rio de Janeiro</dd>
+
+                    <dt>Language</dt>
+                    <dd>Portuguese</dd>
+
+                    <dt>Currency</dt>
+                    <dd>Real</dd>
+
+                    <dt>Time Zone</dt>
+                    <dd>GMT -3</dd>
+
+                    <dt>Calling Code</dt>
+                    <dd>+55</dd>
+                </dl>
+            </div>
+            <div class="weather-content text-center">
+                <div class="content-head weather-head">
+                    <h3>
+                        Weather
+                    </h3>
+                    <img src="images/cloud_cloudy_sun_weather_summer_icon.svg" alt="Weather icon"
+                        width="80px">
+                </div>
+                <dl>
+                    <dt>Temperature</dt>
+                    <dd>Value 1</dd>
+
+                    <dt>Conditions</dt>
+                    <dd>Value 2</dd>
+
+                    <dt>Wind</dt>
+                    <dd>Value 3</dd>
+
+                    <dt>Wind Chill</dt>
+                    <dd>Value 4</dd>
+                </dl>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="footerTopLine">&copy;<span id="currentyear"></span> 🌴 Karina Felippe 🌴 Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+<!-- Statistics font: https://www.ibge.gov.br/cidades-e-estados/rj/paraty.html -->
+
+</html>
