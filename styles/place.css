@@ -60,6 +60,7 @@ header h1 {
 
 .weather-head img {
     padding-top: 1rem;
+    width: 80px;
 }
 
 .data-content,
