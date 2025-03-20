@@ -1,0 +1,146 @@
+html {
+    font-family: sans-serif;
+}
+
+table {
+    margin-bottom: 2rem;
+}
+
+.example {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.example td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+.example th {
+    background-color: rgb(235, 235, 235);
+}
+
+.example td {
+    text-align: center;
+}
+
+.example tr:nth-child(even) td {
+    background-color: rgb(250, 250, 250);
+}
+
+.example tr:nth-child(odd) td {
+    background-color: rgb(245, 245, 245);
+}
+
+.example caption {
+    padding: 10px;
+}
+
+.example tbody {
+    font-size: 95%;
+    font-style: italic;
+}
+
+.example tfoot {
+    font-weight: bold;
+}
+
+/* Wasatch  area*/
+:root {
+    --back: hsla(150, 50%, 30%, 1);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: hsla(0, 0%, 100%, 1);
+    --border: hsla(0, 0%, 20%, .8);
+    --borderlight: hsla(0, 0%, 33%, .3);
+    --shadow: hsl(0, 0%, 50%);
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+.wasatch table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+.wasatch caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+}
+
+.wasatch tr:first-child th,
+.highlight {
+    background-color: var(--back) !important;
+    color: var(--forelight);
+}
+
+.wasatch th,
+td {
+    padding: 7px 15px;
+    border: 1px solid var(--borderlight);
+}
+
+.wasatch th {
+    background-color: var(--back2);
+    font-size: larger;
+}
+
+.wasatch td {
+    text-align: center;
+}
+
+.wasatch tbody tr:nth-child(odd) {
+    background-color: var(--zebra);
+}
+
+/* ACME area */
+#acme {
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+
+    caption {
+        caption-side: bottom;
+        font-size: smaller;
+        padding: 0.2rem;
+    }
+
+    .black {
+        background: #000;
+    }
+
+    th,
+    td {
+        padding: 0.5em 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        white-space: pre;
+    }
+
+    thead th,
+    tbody td {
+        text-align: center;
+    }
+
+    thead {
+        color: #fff;
+
+        th {
+            padding: 1rem;
+            font-size: larger;
+        }
+
+        tr:nth-last-child(1) {
+            background-color: #333;
+        }
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #eee;
+    }
+}

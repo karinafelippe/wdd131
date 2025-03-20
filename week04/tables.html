@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/minimal-table.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My spending record</h1>
+
+    <table class="example">
+        <caption>How I chose to spend my money</caption>
+        <thead>
+            <tr>
+                <th>Purchase</th>
+                <th>Location</th>
+                <th>Date</th>
+                <th>Evaluation</th>
+                <th>Cost (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Haircut</td>
+                <td>Hairdresser</td>
+                <td>12/09</td>
+                <td>Great idea</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Lasagna</td>
+                <td>Restaurant</td>
+                <td>12/09</td>
+                <td>Regrets</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Shoes</td>
+                <td>Shoeshop</td>
+                <td>13/09</td>
+                <td>Big regrets</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>Toothpaste</td>
+                <td>Supermarket</td>
+                <td>13/09</td>
+                <td>Good</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">SUM</td>
+                <td>118</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    
+    <table class="example">
+        <thead>
+            <tr>
+              <th colspan="3" scope="colgroup">Clothes</th>
+            </tr>
+            <tr>
+              <th scope="col">Trousers</th>
+              <th scope="col">Skirts</th>
+              <th scope="col">Dresses</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2" scope="rowgroup">The Netherlands</th>
+                <th scope="row">Amsterdam</th>
+                <td>89</td>
+                <td>34</td>
+                <td>69</td>
+              </tr>
+              <tr>
+                <th scope="row">Utrecht</th>
+                <td>80</td>
+                <td>12</td>
+                <td>43</td>
+              </tr>
+        </tbody>
+    </table>
+
+    <table class="example">
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+              <th id="clothes" colspan="3">Clothes</th>
+            </tr>
+            <tr>
+              <th id="trousers" headers="clothes">Trousers</th>
+              <th id="skirts" headers="clothes">Skirts</th>
+              <th id="dresses" headers="clothes">Dresses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th id="belgium" rowspan="3">Belgium</th>
+              <th id="antwerp" headers="belgium">Antwerp</th>
+              <td headers="antwerp belgium clothes trousers">56</td>
+              <td headers="antwerp belgium clothes skirts">22</td>
+              <td headers="antwerp belgium clothes dresses">43</td>
+            </tr>
+          </tbody>
+    </table>
+
+    <table class="wasatch">
+        <caption>Table 1: District 🥑 Sales Data</caption>
+        <thead>
+            <tr>
+                <th colspan="2" scope="colgroup">Wasatch Sales</th>
+            </tr>
+            <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>July</td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>August</td>
+                <td class="highlight">8,000</td>
+            </tr>
+            <tr>
+                <td>September</td>
+                <td>4,000</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <td>November</td>
+                <td>2,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="acme">
+        <caption>Table 1: Account Feature Comparison</caption>
+        <thead>
+            <tr>
+                <th class="black" colspan="4">ACME Wildwest Services</th>
+            </tr>
+            <tr>
+                <th class="black"></th>
+                <th>Basic</th>
+                <th>Premium</th>
+                <th>Deluxe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Feature 1</th>
+                <td>✔️</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <th scope="row">Feature 2</th>
+                <td>❌</td>
+                <td>✔️</td>
+                <td>✔️</td>
+            </tr>
+            <tr>
+                <th scope="row">Feature 3</th>
+                <td>❌</td>
+                <td>❌</td>
+                <td>✔️</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
