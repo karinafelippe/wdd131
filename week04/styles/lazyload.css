@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+    background-color: black;
+    animation: fade 15s;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+header, footer {
+    background: lightskyblue;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    padding: .25rem;
+}

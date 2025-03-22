@@ -164,10 +164,35 @@ Example Page in a Wider View
 
    HTML tables provide a structured way to represent data including tabular data, which traditionally is presented in rows and columns.
 
-   > Note: A key design issue with table markup is that HTML tables have been misused for page layout. Do not use HTML table structures for page layout, as this creates several problems:
+   > A key design issue with table markup is that HTML tables have been misused for page layout. Do not use HTML table structures for page layout, as this creates several problems:
    > - The markup becomes bloated, which can cause confusion and make it hard to maintain and debug the page. There are better choices.
    > - Table layouts reduce accessibility for the visually impaired when used for page layout instead of their intended purpose.
    > - Tables are not ideal for responsive page behavior.
+
+ - Lazyloading Images
+
+   In terms of site performance and search engine optimization, your goal is to have the webpage loaded an ready for action within a few seconds of a user request. Webpages, however, often have many requests and payloads, including images, that increase the load time beyond the ideal target. The goal of this activity is to alleviate some of the load time by waiting until the page assets are actually needed by the user as they scroll. You will be introduced to the design pattern of progressive loading or 'lazy-loading' of images.
+
+   > First Meaningful Paint
+   >
+   > "It's important to deliver something meaningful to the user as soon as possible — the longer they wait for the page to load, the bigger the chance they will leave before waiting for everything to finish. We should be able to show them at least the basic view of the page they want to see, with placeholders in the places more content will eventually be loaded. This could be achieved by progressive loading ─ also known as Lazy loading. This is all about deferring loading of as many resources as possible (HTML, CSS, JavaScript), and only loading those immediately that are really needed for the very first experience." ─ MDN
+   
+ - JavaScript Objects
+
+   JavaScript objects are a way to group related data and functions together. Objects are a core concept in JavaScript and are used extensively in the language. In this activity, you will learn how to create and use objects in JavaScript.
+   
+   > "An object is a collection of related data and/or functionality. These usually consist of several variables and functions (which are called properties and methods when they are inside objects)." – MDN
+
+ - JavaScript Array Functions
+
+   Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. Array methods that support functional programming include filter(), map(), and reduce(). There are other array methods that support functional programming, but this learning activity dives into these three common and useful methods.
+
+
+  #### Assignment
+  This assignment applies the concepts presented in the learning activities to enhance a previous assignment by incorporating lazy loading and by making the webpage responsive to user interaction by filtering the displayed temple data.
+
+  #### Task
+  Enhance a previous webpage assignment by adding the new required features and using provided temple data.
 
 ---
 
@@ -220,3 +245,130 @@ Example Page in a Wider View
    - Complete the project by the due date.
 
    > This web course intended to help you learn how to construct dynamic and responsive websites using the core web technologies of contemporary HTML, CSS, and JavaScript. Third party templates are NOT allowed. Pages built from site builder software or drag-and-drop tools or that are based on existing sites are not allowed and will lead to no credit on this project.
+
+   ---
+
+## Tips
+
+   ### HTML: Hypertext Markup Language
+   HTML is the standard markup language for creating web pages. It describes the structure of web pages using markup.
+   
+   - Official Documentation: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) – MDN Web Docs
+      - [Web Standards](https://developer.mozilla.org/en-US/curriculum/core/web-standards/)
+      - [MDN Tutorials](https://developer.mozilla.org/en-US/docs/Web/Tutorials)
+      - [Semantic HTML](https://developer.mozilla.org/en-US/curriculum/core/semantic-html/)
+   - [HTML Reference](https://htmlreference.io/) – htmlreference.io
+   - [w3c HTML 5.X Editor's Draft](http://w3c.github.io/html/sections.html) – w3c
+
+   ### CSS: Cascading Style Sheets
+   CSS is a stylesheet language that describes the presentation of an HTML document. It is used to style web pages written in HTML and XHTML.
+   
+   - Official Documentation: [CSS MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) – MDN
+   - [CSS Reference](https://cssreference.io/) – cssreference.io
+   - [All the CSS Properties You Need to Know To Build a Website](https://dev.to/domagojvidovic/all-css-properties-you-need-to-know-to-build-a-website-3dbb) – dev.to
+   - [10 Modern Layouts](https://youtu.be/qm0IfG1GyZU?si=pmIttcz1fPWVwXd1) (22 min) - Chrome for Developers
+   - __CSS Flex__
+      - [CSS Flexbox Layout Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+      - [Flexbox Froggy Game](https://flexboxfroggy.com/)
+   - __CSS Grid__
+      - [CSS Grid Layout Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+      - [Grid Garden Game](https://cssgridgarden.com/)
+      - [Align the Grid](https://gridbyexample.com/video/align-grid/) (4 min) - gridbyexample.com
+      - [Align Grid Items](https://gridbyexample.com/video/align-grid-items/) (4 min) - gridbyexample.com
+      - [CSS Grid Generator](https://cssgrid-generator.netlify.app/) -cssgrid-generator
+
+   - __CodePen__
+      - [Grid Auto Columns and Image Effects](https://codepen.io/BYU-Idaho/pen/raBqbbq)
+
+
+   ### JavaScript
+   The JavaScript programming language empowers developers to create dynamic content, handle user input, manipulate the DOM (Document Object Model), build engaging user interfaces, and more.
+   
+   - MDN Web Docs: [JavaScript Building Blocks](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks) | [JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+   - [CodeCademy JavaScript Cheatsheets](https://www.codecademy.com/resources/cheatsheets/language/javascript)
+   - [API Documentation](https://devdocs.io/)
+   - [22 JavaScript Functions You'll Use 99% of the Time](https://dev.to/arjuncodess/18-javascript-functions-youll-use-99-of-the-time-2bl4?context=digest)
+   - JSON: [Learn JSON in 10 Minutes](https://youtu.be/iiADhChRriM)
+   - JavaScript Tutorials: [JavaScript.info](https://javascript.info/)
+   - Online JavaScript Book: [Eloquent JavaScript](https://eloquentjavascript.net/)
+   - [15 JavaScript Array Functions You Should Master as a Senior Dev](https://dev.to/dipakahirav/15-javascript-array-functions-you-should-master-as-a-senior-dev-54gg?context=digest)
+   - [ES15 Features](https://dev.to/manojspace/10-must-know-javascript-es15-features-for-modern-development-59hf)
+ – dev.to
+
+   - CodePen
+      - [Date Object Examples](https://codepen.io/BYU-Idaho/pen/VYZQRma)
+
+   ### Images and Graphics
+   Images and graphics can make or break a web design. They can help make your website more visually appealing, informative, and engaging.
+   
+   - Free Images/Photos: [Unsplash](https://unsplash.com/) | [Pexels](https://www.pexels.com/) | [Burst](https://www.shopify.com/stock-photos) | [Pixabay](https://pixabay.com/)
+   - Icons: [iconfinder](https://www.iconfinder.com/) | [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free) | [Icon Icons](https://icon-icons.com/) | [Google Icons](https://fonts.google.com/icons)
+   - Placeholders: [picsum.photos](https://picsum.photos/) | [dummyimage](https://dummyimage.com/) | [placeimg](https://placeimg.com/) | [13 Placeholder Sites](https://ashallendesign.co.uk/blog/13-placeholder-avatar-and-image-websites) Ash Allen Design
+   - Editing: [Pixlr-x](https://pixlr.com/x/) | [Photopea](https://www.photopea.com/) | [Remove Background](https://www.remove.bg/) | [Squoosh](https://squoosh.app/) | [TinyPNG](https://tinypng.com/)
+
+   ### Image Placeholders
+
+   A placeholder in web design is a space that is intentionally left blank to provide a visual cue to the user that additional content will be placed there. Image placeholders are used to reserve space for images that have not been loaded yet or to provide a representation of a missing image that is still being developed or acquired.
+
+   These example image placeholder services are free to use and do not require an account to generate an image placeholder. The basic application is to use the provided URL services to generate a random image placeholder based upon desired dimensions in pixels (width/height).
+   
+   - __picsum.photos__
+   
+      Website: [picsum.photos](https://picsum.photos/)
+   
+      <img src="//picsum.photos/200/300/">
+
+      Temporary Image Placeholder 200px width by 300px height
+   
+   - __placehold.co__
+
+      Website: [placehold.co](https://placehold.co/)
+   
+      <img src="https://placehold.co/900x300?text=Hero+Image&font=Montserrat">
+   
+      Hero Image Placeholder 900x300
+   
+   - __loremflickr.com__
+   
+      Website: [loremflickr.com](https://loremflickr.com/)
+   
+      <img src="https://loremflickr.com/460/230/paris">
+   
+      Flickr Placeholder 320x240
+
+   ### APIs
+   APIs (Application Programming Interfaces) are a set of rules and protocols that allow different software applications to communicate with each other. They enable developers to access data and services from other applications and use them in their own applications.
+   
+   - [150+ FREE APIs](https://dev.to/hanzla-baig/150-free-apis-every-developer-needs-to-know-m9j?context=digest) – Dev.to
+   - [Public APIs](https://github.com/public-apis/public-apis) - APILayer
+   - [Rapid API](https://rapidapi.com/collection/cool-apis) Collection of interesting APIs
+   - [mocky](https://designer.mocky.io/) – Mock up custom APIs
+   - [Free APis](https://dev.to/vyan/7-free-apis-for-your-next-projects-50n3?context=digest) – dev.to – APIs for your Projects
+
+   ### Official Standards Organizations
+   These organizations are responsible for developing and maintaining the standards that govern the web.
+   
+   - [WHATWG community](https://whatwg.org/)
+   - [W3C](https://www.w3.org/) – The World Wide Web Consortium – HTML, CSS, and accessibility
+   - [ecma international](https://ecma-international.org/technical-committees/tc39/) – Javascript (ECMAScript)
+
+   ### Tutorials
+   This are selected as relevant subjects to be used as supplemental, review material of basic concepts.
+
+   - __HTML and CSS — freeCodeCamp (🔥) Projects__
+      - [Learn HTML by Building a Cat Photo Application](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/)
+      - [Learn CSS by Building a Cafe Menu](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/)
+      - [Learn CSS Colors by Building a Set of Colored Markers](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/)
+      - [Learn HTML Forms by Building a Registration Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/)
+      - [Learn CSS Box Model by Building a Rothko Painting](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-the-css-box-model-by-building-a-rothko-painting/)
+      - [Learn CSS Flexbox by Building a Photo Gallery](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/)
+      - [Learn Typography by Building a Nutrition Label](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/)
+      - [Learn Accessibility by Building a Quiz](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/)
+      - [Learn More About CSS Pseudo Selectors by Building a Balance Sheet](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-more-about-css-pseudo-selectors-by-building-a-balance-sheet/)
+      - [Learn Intermediate CSS by Building a Cat Painting](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-intermediate-css-by-building-a-cat-painting/)
+      - [Learn CSS Variables by Building a City Skyline](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/)
+      - [Learn CSS Grid by Building a Magazine](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/)
+      - [Learn CSS Animation by Building a Ferris Wheel](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-animation-by-building-a-ferris-wheel/)
+      - [Learn CSS Transforms by Building a Penguin](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-transforms-by-building-a-penguin)
+   - __JavaScript — freeCodeCamp (🔥)__
+      - [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript)
