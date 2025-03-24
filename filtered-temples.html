@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Karina Felippe">
+    <meta name="description"
+        content="This assignment applies the concepts presented in the learning activities to a picture album page that is responsive in small and larger views. This page will utilize a 'hamburger' menu and respond to user requests.">
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+    <title>Temple Album</title>
+</head>
+
+<body>
+    <header class="sansita-extrabold-font">
+        <div class="header-menu">
+            <h1>Temple Album</h1>
+            <span id="menu"></span>
+        </div>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" id="home" class="active">Home</a></li>
+                <li><a href="#" id="old">Old</a></li>
+                <li><a href="#" id="new">New</a></li>
+                <li><a href="#" id="large">Large</a></li>
+                <li><a href="#" id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="sansita-black-font">Home</h2>
+            <div class="temple-cards"></div>
+        </section>
+    </main>
+    <footer>
+        <p class="sansita-black-font">&copy;<span id="currentyear"></span> 🌴 Karina Felippe 🌴 Brazil</p>
+        <p class="sansita-regular-italic-font" id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

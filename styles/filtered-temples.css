@@ -1,0 +1,60 @@
+:root {
+    --sansita-regular-font: normal 400 1em "Sansita", sans-serif;
+    --sansita-regular-italic-font: italic 400 1em "Sansita", sans-serif;
+    --sansita-extrabold-font: normal 800 1.2em "Sansita", sans-serif;
+    --sansita-black-font: normal 900 1.5em "Sansita", sans-serif;
+}
+
+section {
+    max-width: 960px;
+    padding: .1rem;
+}
+
+.temple-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    grid-gap: 10px;
+    place-items: center;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: solid 1px var(--color1);
+    background-color: lightgray;
+}
+
+.temple-cards h3 {
+    font: var(--sansita-extrabold-font) !important;
+    padding: .5rem 0 .5rem 0;
+}
+
+.temple-cards dl {
+    font: var(--sansita-regular-font);
+    width: 100%;
+    padding: .5rem;
+    margin: 0 auto;
+}
+
+.temple-cards dt,
+dd {
+    display: inline-block;
+    margin: 0;
+}
+
+.temple-cards dt {
+    width: 40%;
+    text-align: right;
+}
+
+.temple-cards dd {
+    text-align: left;
+    width: 50%;
+}
+
+.temple-cards picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
