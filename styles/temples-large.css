@@ -25,3 +25,14 @@
 		display: none;
 	}
 }
+
+@media (min-width: 850px) {
+	.temple-cards {
+		grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+		max-width: none !important;
+	}
+	
+	.card img {
+		height: 250px;
+	}
+}

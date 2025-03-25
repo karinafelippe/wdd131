@@ -13,48 +13,56 @@ section {
 .temple-cards {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(410px, 1fr));
     grid-gap: 10px;
+    max-width: 430px;
+    margin: 0 auto;
     place-items: center;
 }
 
 .card {
+    display: grid;
+    grid-template-rows: auto;
     width: 100%;
     height: 100%;
     border: solid 1px var(--color1);
     background-color: lightgray;
+    padding: .5rem;
 }
 
-.temple-cards h3 {
+.card h3 {
     font: var(--sansita-extrabold-font) !important;
     padding: .5rem 0 .5rem 0;
 }
 
-.temple-cards dl {
+.card dl {
     font: var(--sansita-regular-font);
     width: 100%;
     padding: .5rem;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
-.temple-cards dt,
+.card dt,
 dd {
     display: inline-block;
     margin: 0;
 }
 
-.temple-cards dt {
+.card dt {
     width: 40%;
     text-align: right;
 }
 
-.temple-cards dd {
+.card dd {
     text-align: left;
     width: 50%;
 }
 
-.temple-cards picture img {
-    width: 100%;
-    height: 100%;
+.card figure img {
+    margin: 0 0 .5rem 0;
+    max-width: 400px;
+    max-height: 250px;
     object-fit: cover;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
 }
