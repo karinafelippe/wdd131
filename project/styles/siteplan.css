@@ -20,7 +20,7 @@ main p {
 }
 
 main ul {
-    padding: 2rem;
+    padding: 1rem 0 1rem 2rem;
 }
 
 .large-img img {  
