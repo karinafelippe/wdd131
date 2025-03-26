@@ -1,0 +1,52 @@
+:root {
+    --color1: #000000;
+    --color2: #523C2A;
+    --color3: #7A5436;
+    --color4: #BFC0C0;
+    --color5: #F86624;
+    --color6: #FFFFFF;
+
+    --rye-title-font: normal 400 2em "Rye", serif;
+    --rye-regular-font: normal 400 1em "Rye", serif;
+    --goudy-regular-font: normal 400 1em "Goudy Bookletter 1911", serif;
+    --goudy-title-font: normal 400 2em "Goudy Bookletter 1911", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: var(--color6);
+    background-color: var(--color2);
+}
+
+header,
+main {
+    margin: 0 auto;
+}
+
+h1 {
+    font: var(--rye-title-font);
+}
+
+h2 {
+    font: var(--goudy-title-font);
+}
+
+.justified {
+    text-align: justify;
+}
+
+.outlined {
+    color: var(--color1);
+    background-color: var(--color5);
+    padding: .5rem;
+}
+
+.centered {
+    text-align: center;
+}

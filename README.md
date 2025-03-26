@@ -197,7 +197,9 @@ Example Page in a Wider View
 ---
 
 ### Week 05
- #### Learning Activity
+ #### Website Planning Document
+ Planning is a critical step in the success of any project. The website plan serves as a blueprint for designing and developing your project. The purpose of this assignment is for you to organize your plans for your proposed project.
+ The site plan is a living document that will change as the project progresses. It is used to communicate with the client and the development team – which in this case, is just you.
 
  - 
  

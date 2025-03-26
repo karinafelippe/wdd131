@@ -1,0 +1,45 @@
+
+
+header h1 {
+    padding: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid ;
+}
+
+body p {
+    padding: .5rem;
+    text-indent: .5rem;
+    margin-bottom: 1rem;
+}
+
+.large-img img {  
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.large-img {
+    display: grid;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.example1 {
+    font: var(--rye-title-font);
+}
+
+.example2 {
+    font: var(--goudy-title-font) !important;
+}
