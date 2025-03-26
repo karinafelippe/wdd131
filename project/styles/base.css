@@ -18,15 +18,15 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-    text-align: center;
-    color: var(--color6);
-    background-color: var(--color2);
-}
-
 header,
 main {
     margin: 0 auto;
+}
+
+header, footer {
+    color: var(--color6);
+    background-color: var(--color2);
+    text-align: center;
 }
 
 h1 {
@@ -35,6 +35,14 @@ h1 {
 
 h2 {
     font: var(--goudy-title-font);
+}
+
+footer {
+    padding: 1.5rem;
+}
+
+footer p {
+    padding: .25rem;
 }
 
 .justified {
