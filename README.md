@@ -197,12 +197,37 @@ Example Page in a Wider View
 ---
 
 ### Week 05
+ #### Learning Activity
+ 
+ - HTML Forms
+
+  In WDD 130, you were introduced to the basic concepts of frontend form design. In this activity, you will continue the discussion and application by diving deeper into form design and development.
+ 
+    > "The form HTML element represents a document section containing interactive controls for submitting information." – [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+ - JavaScript Callback Functions
+
+  Callback functions are a powerful feature of JavaScript, widely used in the language itself and in the browser. They are used to handle events, process data, and control the program's flow.
+  
+    > "A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action." – [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
+
+ - JavaScript localStorage
+
+  There are times when non-sensitive data storage would provide a better user experience and offer some site performance improvements. The Web Storage API mechanisms provide the ability to store information in a key-value format based on a particular user agent or origin. In this activity, you will discover the purpose and scope of the localStorage mechanism available through the Storage interface. You will use this knowledge to drive and display some traffic data from individual clients on a page.
+  
+    > The web storage data is saved in a SQLite file in a subfolder or file in the user's profile folder.
+ 
  #### Website Planning Document
- Planning is a critical step in the success of any project. The website plan serves as a blueprint for designing and developing your project. The purpose of this assignment is for you to organize your plans for your proposed project.
+  Planning is a critical step in the success of any project. The website plan serves as a blueprint for designing and developing your project. The purpose of this assignment is for you to organize your plans for your proposed project.
  The site plan is a living document that will change as the project progresses. It is used to communicate with the client and the development team – which in this case, is just you.
 
- - 
- 
+ #### Assignment
+  In this assignment, you will create product review form page. You will use good form design, be given specific field requirements, and you must include a submission confirmation with a counter. In addition, the form must be user friendly on both mobile and desktop screens.
+
+ #### Task
+  Build an HTML form with a confirmation page. The form must meet the given specifications listed in the instructions. The design is up to you but must meet good form design principles. Here is an example screenshot of what you will be building.
+  
+  ![Product Review Form Example](images/form-sm.png)
 
 ---
 
