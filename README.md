@@ -216,6 +216,12 @@ Example Page in a Wider View
   There are times when non-sensitive data storage would provide a better user experience and offer some site performance improvements. The Web Storage API mechanisms provide the ability to store information in a key-value format based on a particular user agent or origin. In this activity, you will discover the purpose and scope of the localStorage mechanism available through the Storage interface. You will use this knowledge to drive and display some traffic data from individual clients on a page.
   
     > The web storage data is saved in a SQLite file in a subfolder or file in the user's profile folder.
+
+  |                | Cookies         | localStorage |	sessionStorage       |
+  | :------------- | :-------------: | :----------: | -------------------- |
+  | __Capacity__   | ~4KB            | ~5MB         | ~5MB                 |
+  | __Expires__    | Manually set    | Never        | On tab/windows close |
+  | __Accessible__ | from	Any window | Any Window   | Same tab             |
  
  #### Website Planning Document
   Planning is a critical step in the success of any project. The website plan serves as a blueprint for designing and developing your project. The purpose of this assignment is for you to organize your plans for your proposed project.
