@@ -31,9 +31,14 @@ form {
 }
 
 .webform textarea {
-    max-width: 300px;
+    max-width: 270px;
     min-height: 100px;
     margin-top: .3rem;
+    padding: .75rem;
+}
+
+.webform select {
+    width: 295px !important;
 }
 
 .webform input[type="date"],
