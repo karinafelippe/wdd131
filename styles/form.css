@@ -1,0 +1,142 @@
+/*----------- FORM STYLING --------------*/
+form {
+    width: 300px;
+}
+
+.webform {
+    background-color: var(--color2);
+    padding: 1rem;
+}
+
+.webform fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.webform label {
+    display: block;
+    font-size: .9rem;
+}
+
+.webform div {
+    font-size: .9rem;
+}
+
+.webform select option {
+    text-transform: capitalize;
+}
+
+.webform select option:first-child {
+    text-transform: none;
+}
+
+.webform textarea {
+    max-width: 300px;
+    min-height: 100px;
+    margin-top: .3rem;
+}
+
+.webform input[type="date"],
+.webform input[type="text"],
+.webform select,
+.webform textarea {
+    width: 280px;
+    margin-bottom: 1rem;
+    display: block;
+    height: 44px;
+    padding-left: .75rem;
+}
+
+.webform input[type="date"],
+.webform input[type="text"],
+.webform input[type="checkbox"],
+.webform select {
+    margin-top: .3rem;
+}
+
+.webform input[type="submit"] {
+    padding: .5rem;
+    width: 100%;
+    background-color: var(--color4);
+    border: 1px solid var(--color5);
+    font-size: large;
+    font-weight: 600;
+}
+
+.space-bottom {
+    margin-bottom: 1rem;
+}
+
+/*----------- star rating --------------*/
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    margin: 10px auto;
+    position: relative;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    color: var(--color5);
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    transition: 0.2s ease;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0);
+    /* remove blinking cursor*/
+}
+
+.stars label:hover {
+    color: #ff0080;
+    transition: 0.2s ease;
+}
+
+.stars label:active::before {
+    transform: scale(1.1);
+}
+
+.stars label::before {
+    content: "\2606";
+    position: absolute;
+    top: 0px;
+    line-height: 26px;
+}
+
+.stars input:checked~label::before {
+    content: "\2605";
+}
+
+/*----------- FONTS ---------------------*/
+
+.sansita-regular-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sansita-extrabold-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sansita-black-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.sansita-regular-italic-font {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
