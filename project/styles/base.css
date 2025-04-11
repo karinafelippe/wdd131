@@ -18,6 +18,18 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--color2);
+    color: var(--color6);
+    padding: 2rem;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
 header,
 main {
     margin: 0 auto;
@@ -29,8 +41,48 @@ header, footer {
     text-align: center;
 }
 
+nav {
+    background-color: var(--color4);
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: var(--color1);
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: larger;
+	transition: 0.5s;
+}
+
+.active, nav a:hover {
+    background-color: var(--color5);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.show li {
+	display: block;
+}
+
+
+
 h1 {
     font: var(--rye-title-font);
+    font-size: 40pt;
 }
 
 h2 {
@@ -39,6 +91,7 @@ h2 {
 
 footer {
     padding: 1.5rem;
+    margin-top: 1rem;
 }
 
 footer p {
@@ -57,4 +110,83 @@ footer p {
 
 .centered {
     text-align: center;
+}
+
+.address {
+    color: var(--color1);
+}
+
+.address img {
+    width: 15px;
+}
+
+.icon img {
+    max-width: 30px;
+    margin-right: 1rem;
+}
+
+.open-hours {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    color: var(--color1);
+    flex-wrap: wrap;
+}
+
+.hour-item img {
+    width: 15px;
+    margin-right: .5rem;
+}
+
+.h-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.food-cards {
+    margin: .2rem;
+}
+
+.food-card {
+    max-width: 600px;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1.5rem;
+    background-color: var(--color3);
+    border-radius: 10px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: .5rem;
+    background-color: var(--color5);
+    border-radius: 10px;
+}
+
+.contact-form label {
+    margin-top: .5rem;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    max-width: 100px;
+}
+
+.food-card img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+#logo {
+    max-width: 200px;
 }
