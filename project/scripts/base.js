@@ -57,7 +57,7 @@ function cardTemplate(food) {
                 <p>Espeto de ${food.name.toLowerCase()}. Aproximadamente ${food.weight}g.</p>
                 <p>R$ ${food.price.toFixed(2)}</p>
             </div>
-            <img src="${food.imageUrl}" alt="" srcset="">
+            <img loading="lazy" src="${food.imageUrl}" alt="" srcset="">
         </div>`;
 }
 
