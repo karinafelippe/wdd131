@@ -28,6 +28,7 @@ header {
     padding: 2rem;
     flex-wrap: wrap;
     text-align: left;
+    font-weight: 600;
 }
 
 header,
@@ -163,6 +164,11 @@ footer p {
     gap: 1.5rem;
     background-color: var(--color5);
     border-radius: 10px;
+    font-weight: 600;
+}
+
+.food-card h2 {
+    font-weight: bold;
 }
 
 .contact-form {
@@ -172,6 +178,7 @@ footer p {
     flex-direction: column;
     justify-content: space-between;
     padding: .5rem;
+    font-weight: bold;
     background-color: var(--color5);
     border-radius: 10px;
 }
