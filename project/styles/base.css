@@ -43,7 +43,7 @@ header, footer {
 }
 
 nav {
-    background-color: var(--color4);
+    background-color: var(--color5);
     display: flex;
     justify-content: center;
     font-weight: 600;
@@ -61,6 +61,7 @@ nav ul {
 nav a {
     display: block;
     color: var(--color1);
+    font-weight: bolder;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -69,7 +70,8 @@ nav a {
 }
 
 .active, nav a:hover {
-    background-color: var(--color5);
+    background-color: var(--color1);
+    color: var(--color6);
 }
 
 nav a:hover {
@@ -163,7 +165,7 @@ footer p {
     justify-content: space-between;
     padding: 1rem;
     gap: 1.5rem;
-    background-color: var(--color5);
+    background-color: var(--color4);
     border-radius: 10px;
     font-weight: 600;
 }
@@ -180,7 +182,7 @@ footer p {
     justify-content: space-between;
     padding: .5rem;
     font-weight: bold;
-    background-color: var(--color5);
+    background-color: var(--color4);
     border-radius: 10px;
 }
 
