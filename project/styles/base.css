@@ -162,9 +162,8 @@ footer p {
     justify-content: space-between;
     padding: 1rem;
     gap: 1.5rem;
-    background-color: var(--color5);
+    background-color: var(--color4);
     border-radius: 10px;
-    font-weight: 600;
 }
 
 .food-card h2 {
