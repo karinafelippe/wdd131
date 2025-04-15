@@ -27,3 +27,14 @@ Standard folder names for our sites/subfolders are:
 - styles - Folders with this name contain CSS files.
 - images - Folders with this name contain images.
 - scripts - Folders with this name contain JavaScript files.
+
+## WebPages
+
+Links:
+- [Project](https://karinafelippe.github.io/wdd131/project/index.html)
+- [Project Plan](https://karinafelippe.github.io/wdd131/project/siteplan.html)
+- [First Page](https://karinafelippe.github.io/wdd131/index.html)
+- [Place Page](https://karinafelippe.github.io/wdd131/place.html)
+- [Temples](https://karinafelippe.github.io/wdd131/temples.html)
+- [Filteres Temples](https://karinafelippe.github.io/wdd131/filtered-temples.html)
+- [Product Review](https://karinafelippe.github.io/wdd131/form.html)
